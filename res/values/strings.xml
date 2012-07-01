@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, HomeScreenActivity!</string>
+    <string name="app_name">Track Your Train</string>
+    <string name="intro">Welcome To Track Your Train.</string>
+    <string name="introTrackTrain">Enter Train Number:</string>
+    <string name="intro1">One App for all Railways\' related Query.</string>
+    <string name="edtTrainNumberHint">Train Number</string>
+    <string name="btnGetStationsText">Get Stations</string>
+    <string name="spinStationsText">Select Station</string>
+    <string name="btnGetDateText">Submit</string>
+    <string name="btnTodayText">Today\'s Train</string>
+    <string name="btnTomorrowText">Tomorrow\'s Train</string>
+    <string name="btnDayAfterTomorrowText">Day After Tomorrow\'s Train</string>
+    <string name="btnYesterdayText">Yesterday\'s Train</string>
+    <string name="btnBackText">Back</string>
+    <string name="btnNewQueryText">New Query</string>
+    <string name="btnGetTrainNoText">Find Train Number</string>
+    <string name="findTrainInfo">Enter Starting Alphabets of Train Name:</string>
+    <string name="edtTrainNameHint">Train Name</string>
+    <string name="btnFindTrainNoText">Find Train</string>
+    <string name="btnPnrStatusText">Get PNR Status</string>
+    <string name="findPnrInfo">Enter PNR Number:</string>
+    <string name="edtPnrHint">PNR Number</string>
+    <string name="btnGetPnrText">Get PNR Status</string>
+    <string name="btnTrackTrainText">Running Status Of Train</string>
+
+</resources>

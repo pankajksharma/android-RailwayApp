@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background" >
+    
+    <TextView 
+        android:text="@string/findTrainInfo"
+        android:textSize="16sp"
+        android:layout_marginTop="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+    
+    <EditText 
+        android:id="@+id/edtTrainName" 
+        android:hint="@string/edtTrainNameHint"
+        android:layout_width="160sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:layout_gravity="center_horizontal" />
+    
+    <Button 
+        android:id="@+id/btnFindTrainNo"
+        android:text="@string/btnFindTrainNoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:layout_gravity="center_horizontal" />
+    
+    <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+        
+        <WebView 
+            android:id="@+id/webTainNames"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:visibility="invisible" />
+                    
+	</ScrollView>
+                        
+</LinearLayout>

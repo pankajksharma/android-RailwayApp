@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background" >
+    
+    <TextView 
+        android:text="@string/findPnrInfo"
+        android:textSize="20sp"
+        android:layout_marginTop="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+    
+    <EditText 
+        android:id="@+id/edtPnrNumber" 
+        android:hint="@string/edtPnrHint"
+        android:layout_width="120sp"
+        android:inputType="numberDecimal"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5sp" />
+    
+    <Button 
+        android:id="@+id/btnGetPnr"
+        android:text="@string/btnGetPnrText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10sp" />
+    
+    <TextView 
+        android:id="@+id/txtPnrInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:visibility="invisible"
+        android:textSize="16sp" />
+        
+            
+    <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+        
+        <WebView 
+            android:id="@+id/webPnrStatus"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:visibility="invisible" />
+                    
+	</ScrollView>
+                        
+</LinearLayout>

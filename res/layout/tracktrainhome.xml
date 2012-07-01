@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/introTrackTrain"
+        android:textSize="16sp"
+        android:layout_marginTop="20sp" />
+    
+    
+    <EditText 
+        android:id="@+id/edtTrainNumber"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20sp"
+        android:gravity="center_horizontal"
+        android:hint="@string/edtTrainNumberHint"
+        android:inputType="numberDecimal"
+        android:maxLength="10" />
+    
+    <Button 
+        android:id="@+id/btnGetStations"
+        android:text="@string/btnGetStationsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20sp" />
+    
+    <Spinner 
+        android:id="@+id/spinStations"
+        android:prompt="@string/spinStationsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20sp"
+        android:visibility="invisible" /> 
+        
+    <Button 
+        android:id="@+id/btnToDateActivity"
+        android:text="@string/btnGetDateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20sp"
+        android:visibility="invisible" />
+        
+</LinearLayout>
